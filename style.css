@@ -1,3 +1,7 @@
 body{
- background-color: #39C5BB;
+  background-color: #39C5BB;
+}
+#result{
+  padding: 40px;
+  font-size: 200%;
 }
