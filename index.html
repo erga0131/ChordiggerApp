@@ -2,17 +2,21 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChordiggerApp</title>
+    <script src = "script.js"></script>
+    <script src="https://widget.songle.jp/v1/api.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>ChordiggerApp</h1>
-     <form action="/ChordsSearch" method="POST">
+    <p><span id="TEST"></span></p>
+     <form name = "selectchords">
         <input type="radio" name="chords" value="0" checked>カノン（C - G - Am - Em - F - C - F - G）</input>
         <input type="radio" name="chords" value="1" >小室（Am - F - G - C）</input>
         <input type="radio" name="chords" value="2" >王道（F - G - Em - Am）</input>
-        <button type="submit">送信</button>
+        <input type="button" value="GO" onclick="clickbtn()" />
     </form>
+    <div id="result"></div>
 </body>
 </html>
