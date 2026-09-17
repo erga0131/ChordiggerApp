@@ -10,16 +10,17 @@
 </head>
 <body>
     <h1>ChordiggerApp</h1>
-    <p><span id="TEST"></span></p>
      <form name = "selectchords">
-        <input type="radio" name="chords" value="0" checked>カノン（C - G - Am - Em - F - C - F - G）</input>
-        <input type="radio" name="chords" value="1" >小室（Am - F - G - C）</input>
-        <input type="radio" name="chords" value="2" >王道（F - G - Em - Am）</input>
-        <input type="button" value="GO" onclick="clickbtn()" />
+     <table>
+        <tr><td><input type="radio" name="chords" value="0" checked>カノン（C - G - Am - Em - F - C - F - G）</input></td></tr>
+        <tr><td><input type="radio" name="chords" value="1" >小室（Am - F - G - C）</input></td></tr>
+        <tr><td><input type="radio" name="chords" value="2" >王道（F - G - Em - Am）</input></td></tr>
+        <tr><td><input type="button" value="GO" onclick="clickbtn()" /></td></tr>
+     </table>
     </form>
     <div id="result">ここに運命の一曲が表示されます！</div>
     <table>
-        <td><a href="https://api.songle.jp/"><img width="200vw" src="powered-by-songle-api.png" alt="powered by Songle API logo"></a></td>
+        <td><a href="https://api.songle.jp/"><img width="200vw" src="https://tutorial.songle.jp/images/logos/powered-by-songle-api.png" alt="powered by Songle API logo"></a></td>
         <td>
             <ul style="font-size: 50%;">
                 <li>本サービスは、国立研究開発法人産業技術総合研究所が提供する Songle API を利用して開発・動作しています。</li>
