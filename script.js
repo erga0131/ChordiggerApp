@@ -50,5 +50,5 @@ function callAPI(query, maxpagenum){
   }
 
 function drawresult(url, title){
-    document.getElementById("result").innerHTML = `<a href=${url}>${title}</a>`
+    document.getElementById("result").innerHTML = `<a href=${url} target="_blank" rel="noopener">${title}</a>`
   }
